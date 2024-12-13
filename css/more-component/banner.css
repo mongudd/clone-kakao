@@ -1,0 +1,36 @@
+.banner {
+  margin-bottom: 10px;
+}
+
+.banner-img {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  height: 100px;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 10px;
+}
+
+.banner-img-badge {
+  font-size: 15px;
+  color: white;
+  opacity: 0.8;
+}
+
+.banner-img-dot {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
+}
+
+.banner-img-dot div {
+  display: flex;
+  margin-left: 5px;
+  justify-content: center;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}

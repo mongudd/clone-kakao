@@ -1,0 +1,18 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+.search-box__column {
+  padding-right: 10px;
+}
+
+.search-box__column:last-child {
+  opacity: 0.5;
+}

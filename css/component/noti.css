@@ -1,0 +1,29 @@
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.noti-number {
+  position: absolute;
+  display: flex;
+  font-size: 9px;
+  width: 22px;
+  height: 14px;
+  border-radius: 10px;
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+
+  top: -5px;
+  right: -8px;
+
+  animation: notificationAnimation 3s ease-in-out infinite;
+}

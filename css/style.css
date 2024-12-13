@@ -1,0 +1,42 @@
+@import "variable.css";
+@import "reset.css";
+
+/*Component*/
+@import "component/nav.css";
+@import "component/status-bar.css";
+@import "component/noti.css";
+@import "component/profile.css";
+@import "component/ad.css";
+@import "component/header.css";
+@import "component/section-title.css";
+@import "component/no-mobile.css";
+
+/*Friends*/
+@import "friends-component/pung.css";
+@import "friends-component/splash-screen.css";
+
+/*Shopping*/
+@import "shopping-component/search-box.css";
+@import "shopping-component/menu.css";
+@import "shopping-component/product-list.css";
+
+/*More*/
+@import "more-component/pay-box.css";
+@import "more-component/icon-list.css";
+@import "more-component/banner.css";
+@import "more-component/my-tool.css";
+
+/*Chatroom*/
+@import "chatroom-component/sub-bar.css";
+@import "chatroom-component/messeges.css";
+@import "chatroom-component/input-box.css";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f9;
+  margin: 0px;
+  padding: 20px 20px 65px 20px;
+}
+.container {
+  border-radius: 8px;
+}

@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  border-top: var(--main-border);
+  padding: 15px 0px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  animation: appearNavAnimation 1s ease-in-out;
+}
+
+.nav-column {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.nav-icons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-icon__title {
+  font-size: 10px;
+  padding-top: 4px;
+}
+
+.nav-icon-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+@keyframes appearNavAnimation {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}

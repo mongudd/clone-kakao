@@ -1,0 +1,42 @@
+.sub-bar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+
+  padding: 15px 0px 13px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--chatroom);
+  opacity: 0.95;
+}
+
+.sub-bar-column-h {
+  padding-left: 20px;
+}
+
+.sub-bar-column-m {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sub-bar-column-m-txt {
+  padding-right: 3px;
+}
+
+.sub-bar-column-m-count {
+  color: var(--gray);
+  opacity: 0.5;
+}
+
+.sub-bar-column-h i {
+  padding-right: 5px;
+}
+
+.sub-bar-column-t {
+  padding-right: 20px;
+}
+
+.sub-bar-column-t :first-child {
+  padding-right: 10px;
+}

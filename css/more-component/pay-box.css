@@ -1,0 +1,39 @@
+.pay-box {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: black;
+  background-color: var(--yellow);
+  border-radius: 15px;
+  margin: 5px 0px;
+  justify-content: space-between;
+}
+
+.pay-box__column {
+  display: flex;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.pay-box__column:first-child div {
+  padding-right: 5px;
+}
+
+.pay-box__column-send {
+  padding: 0px 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pay-box__column-asset {
+  padding: 0px 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pay-box__column-pay {
+  padding-left: 10px;
+  display: flex;
+}
+
+.pay-box__column-pay div {
+  padding-left: 5px;
+}

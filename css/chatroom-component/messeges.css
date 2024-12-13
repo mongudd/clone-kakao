@@ -1,0 +1,123 @@
+@keyframes fadeInReceived {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSent {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/*Received*/
+.received-msg {
+  padding: 10px 0px;
+  display: flex;
+  animation: fadeInReceived 3s linear;
+}
+
+.received-msg-column-m {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.received-msg-column-m-name {
+  color: var(--gray);
+  font-size: 12px;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+.received-msg-column-m-content-text {
+  font-size: 15px;
+  padding: 8px;
+  width: fit-content;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 13px;
+  border-top-left-radius: 0px;
+}
+
+.received-msg-column-m-content-text-2 {
+  display: flex;
+}
+
+.received-msg-column-m-content-text-2-txt {
+  font-size: 15px;
+  padding: 8px;
+  width: fit-content;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 13px;
+}
+
+.received-msg-column-m-content-text-2-time {
+  font-size: 10px;
+  color: var(--gray);
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5px;
+}
+
+.received-msg-column-h img {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+/*Sent*/
+.sent-msg {
+  padding: 3px 0px;
+  display: flex;
+  justify-content: flex-end;
+  animation: fadeInSent 3s linear;
+}
+
+.sent-msg-column-m {
+  padding-left: 5px;
+  display: flex;
+}
+
+.sent-msg-column-m-content-name {
+  color: var(--gray);
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.sent-msg-column-m-content-text {
+  font-size: 15px;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #fee500;
+  border-radius: 13px;
+  border-top-right-radius: 0px;
+}
+
+.sent-msg-column-m-time {
+  font-size: 10px;
+  color: var(--gray);
+  display: flex;
+  align-items: flex-end;
+  padding-right: 5px;
+}
+
+.sent-msg-column-h img {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+.sent-msg-column-t {
+  background-color: #fee500;
+}
